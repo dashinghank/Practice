@@ -1,4 +1,5 @@
-﻿using Practice.VeryEasy;
+﻿using Practice.Easy;
+using Practice.VeryEasy;
 using System;
 
 namespace Practice
@@ -62,6 +63,26 @@ namespace Practice
             Question60 question60 = new Question60();
             int[] qa60 = new int[] { 1, 2, 3, 4, 5 };
             bool a60 = question60.hurdleJump(qa60, 5);
+            Question61 question61 = new Question61();
+            bool a61 = question61.IsSafeBridge("asdadsaasdasdad");
+            Question62 question62 = new Question62();
+            int[] a62 = new int[] { -3, -4, -10, -2, -3 };
+            int a622 = question62.GetAbsSum(a62);
+            Question63 question63 = new Question63();
+            string a63 = question63.MonthName(5);
+            Question64 question64 = new Question64();
+            int[] t64 = new int[] { 1, 0, 3, 3, 7, 2, 1 };
+            int[] a64 = question64.MultiplyByLength(t64);
+            int a65 = new Question65().Factorial(5);
+            string a66 = new Question66().SmallerNum("990", "896");
+            double[] t67 = new double[] { 1, 2, 3, 4, 5 };
+            double[] a67 = new Question67().FindMinMax(t67);
+            long a68 = new Question68().CalculateExponent(9, 5);
+            int a69 = new Question69().HammingDistance("abcde", "bcdef");
+            int[] et2 = new int[] { 80, 29, 4, -95, -24, 85 };
+            int [] e2= new Easy2().SortNumsAscending(et2);
+            string e3 = new Easy3().NameShuffle("Donald Trump");
+            bool e4 = new Easy4().isIdentical("aaaaaaa");
         }
     }
 }
