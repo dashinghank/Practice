@@ -1,15 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Practice.Easy
+﻿namespace Practice.Easy
 {
-    class Easy5
+    internal class Easy5
     {
         public string FormatDate(string date)
         {
             string[] part = date.Split('/');
-            return 
+            return $"{part[2]}{part[1]}{part[0]}";
+        }
+
+        public string FormatDate1(string date)
+        {
+            string[] part = date.Split('/');
+            return $"{part[2]}{part[1]}{part[0]}";
+        }
+
+        public string FormatDate2(string date)
+        {
+            string[] part = date.Split('/');
+            return $"{part[2]}{part[1]}{part[0]}";
         }
     }
 }
